@@ -12,6 +12,7 @@
     "@babel/preset-env": "^7.21.4",
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "@vercel/node": "^2.10.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",

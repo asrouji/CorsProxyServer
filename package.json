@@ -29,6 +29,7 @@
   },
   "scripts": {
     "start": "ts-node src/index.ts",
+    "deploy": "vercel deploy --prod",
     "test": "jest",
     "lint": "eslint src/**/*.ts",
     "type-check": "tsc --noEmit"

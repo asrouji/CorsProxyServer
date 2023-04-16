@@ -1,0 +1,27 @@
+{
+  "name": "cors-proxy-server",
+  "version": "1.0.0",
+  "description": "Proxy server to bypass CORS errors when fetching API URLs",
+  "main": "src/index.ts",
+  "repository": "git@github.com:asrouji/CorsProxyServer.git",
+  "author": "Aidan Srouji <asrouji@lion.lmu.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-env": "^7.21.4",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.21.4",
+    "@types/jest": "^29.5.0",
+    "eslint": "^8.38.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "type-check": "tsc --noEmit"
+  }
+}
